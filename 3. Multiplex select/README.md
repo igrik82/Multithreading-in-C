@@ -1,4 +1,4 @@
-# Simple Chat Server(multyplexing through SELECT)
+# Simple Chat Server(multiplexing through SELECT)
 
 <img src="img/02tab2.png">
 <img src="img/03tab3.png">
