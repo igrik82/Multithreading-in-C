@@ -1,4 +1,6 @@
 # Simple Chat Server(multiplexing through SELECT)
+[link to stepik.org](https://stepik.org/lesson/12579/step/2?unit=3005)
+
 
 <img src="img/02tab2.png">
 <img src="img/03tab3.png">
