@@ -1,2 +1,2 @@
 # Multithreading in C
-This is some solutions for this course https://stepik.org/149
+There are some solutions for this course https://stepik.org/149
