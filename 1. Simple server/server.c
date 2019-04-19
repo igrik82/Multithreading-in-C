@@ -37,10 +37,10 @@ int main (int argv, char **argc)
     {
         int slaveSocket = accept(masterSocket, 0 , 0);
 
-        send(slaveSocket,"Server made by igrik is running...\n", 36, MSG_NOSIGNAL);
+        send(slaveSocket,"Server made by igrik is running...\n", 36, 0);
         char Buffer[20] = {0};
-        recv(slaveSocket, Buffer, 19, MSG_NOSIGNAL);
-        send(slaveSocket,"FUCK OFF!!!\n", 13, MSG_NOSIGNAL);
+        recv(slaveSocket, Buffer, 19, 0);
+        send(slaveSocket,"FUCK OFF!!!\n", 13, 0);
         shutdown(slaveSocket, SHUT_RDWR);
         close(slaveSocket);
     }
