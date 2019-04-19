@@ -65,6 +65,7 @@ void addNodes(int socketNode, struct linkedList **List)
         (*List) = (struct linkedList *)malloc(sizeof(struct linkedList));
         (*List)->val = socketNode;
         (*List)->next = NULL;
+        (*List)->nickName = NULL;
     }
     else
     {
